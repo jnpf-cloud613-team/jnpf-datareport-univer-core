@@ -1,0 +1,15 @@
+package jnpf.univer.data.resource;
+
+import lombok.Data;
+
+/**
+ * @author ：JNPF开发平台组
+ * @version: V3.1.0
+ * @copyright 引迈信息技术有限公司
+ * @date ：2024/11/21 上午11:09
+ */
+@Data
+public class UniverValue {
+    private Object value;
+    private String type;
+}
